@@ -1,7 +1,7 @@
 export default function Nav() {
 
     return (
-        <header>
+        <div className="nav">
             <div>
                 <h1>Hamberger</h1>
             </div>
@@ -13,12 +13,18 @@ export default function Nav() {
                 <input placeholder="검색"/>
             </div>
             <div>
-                <span>makes</span>
-                <span>apps</span>
-                <span>alert</span>
-                <span>profile</span>
+                <h1>makes</h1>
             </div>
-        </header>
+            <div>
+                <h1>apps</h1>
+            </div>
+            <div>
+                <h1>alert</h1>
+            </div>
+            <div>
+                <h1>profile</h1>
+            </div>
+        </div>
 
     )
 

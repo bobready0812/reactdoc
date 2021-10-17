@@ -1,9 +1,10 @@
 import React from 'react';
-import Counter from './component/Counter';
+
+import Nav from './component/Nav';
 
 function App() {
   return (
- 
+    <Nav />
     
   );
 }
