@@ -1,30 +1,30 @@
 export default function Nav() {
 
     return (
-        <div className="nav">
+        <header className='nav'>
             <div>
-                <h1>Hamberger</h1>
+                <h4>Hamberger</h4>
             </div>
 
             <div>
                 <h1>Youtube</h1>
             </div>
-            <div>
+            <div className="input">
                 <input placeholder="검색"/>
+            </div >
+            <div className="div">
+                <h4>makes</h4>
             </div>
-            <div>
-                <h1>makes</h1>
+            <div className="div">
+                <h4>apps</h4>
             </div>
-            <div>
-                <h1>apps</h1>
+            <div className="div">
+                <h4>alert</h4>
             </div>
-            <div>
-                <h1>alert</h1>
+            <div className="div">
+                <h4>profile</h4>
             </div>
-            <div>
-                <h1>profile</h1>
-            </div>
-        </div>
+        </header>
 
     )
 
