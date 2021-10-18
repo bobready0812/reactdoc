@@ -1,12 +1,14 @@
 .nav {
   display: flex;
   align-items: center;
+  background-color: skyblue;
 }
 
 .div {
   position: relative;
   padding: 10px;
   left:1100px;
+  background-color: aqua;
 }
 
 .input {
